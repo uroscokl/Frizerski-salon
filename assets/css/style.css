@@ -1,0 +1,243 @@
+di {
+    border: 1px dashed #c1dae2
+}
+
+.jumbotron {
+  background-image: url('http://s19.postimg.org/fhnj9io5f/header_bg.jpg');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top:-20px;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  margin-top: 51px;  
+  margin-bottom: 30px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: none;
+  height: auto;
+  max-height: none;
+}
+
+
+
+.main-text {
+    position: absolute;
+    top: 50px;
+    width: 70%;
+    color: #FFF;
+    height: 500px;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 200px;
+}
+
+/* carousel
+-------------------------------------------------- */
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img{
+   height: 21px  
+}
+
+
+.navbar-right a {
+    text-transform: uppercase;
+}
+
+.logo1 img {
+  position: relative;
+  margin: auto;
+  width:40%;
+  text-align: center
+}
+
+.main-text h1 {
+  color: #ffe200;
+  font-size: 60px;  
+  font-family: 'Lobster', cursive;
+  text-shadow: 2px 5px 10px #000000;
+}
+
+.main-text p {
+    color: white;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.vsebina-white {
+    background-color: none;
+    margin-top: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 100%;
+}
+
+.vsebina-color {
+    background-color: rgba(255, 226, 0, 0.3);
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 100%;
+}
+
+h2 {
+    text-align: center;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;  
+    color: black;
+}
+
+.row {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.row h3 {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;  
+    color: #ffe200;
+}
+
+.col-md-4 p {
+    text-align: justify;
+}
+
+.faqbox {
+    margin-top: 50px;
+}
+
+.panel-group a {
+    font-weight: bold
+}
+
+.glyphicon {
+    color: #ffe200;
+    font-size:25px;
+    margin-right: 10px;
+    margin-top: -5px;
+    vertical-align: middle;  
+}
+
+.cont-txt {
+    text-align: left
+}
+
+
+
+.btn:hover {
+    background-color: #ffe200;
+    border: 1px solid #ffe200;
+    color: white
+}
+
+.btn-social-icon {
+    position: relative;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 34px;
+    width: 34px;
+    padding: 0px;
+    margin-bottom: 4px;
+    margin-right: 5px;
+}
+
+.btn-social-icon > :first-child {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    line-height: 34px;
+    font-size: 1.6em;
+    text-align: center;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    border: medium none;
+    text-align: center;
+    width: 100% !important;
+}
+.fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    font-size-adjust: none;
+    font-stretch: normal;
+    font-feature-settings: normal;
+    font-language-override: normal;
+    font-kerning: auto;
+    font-synthesis: weight style;
+    font-variant: normal;
+    font-size: inherit;
+    text-rendering: auto;
+    -moz-osx-font-smoothing: grayscale;
+}
+.btn-facebook {
+    background-color: #3B5998;
+    border-color: rgba(0, 0, 0, 0.2);
+    color: #FFF;
+}
+
+.btn-instagram {
+    background-color: #3F729B;
+    border-color: rgba(0, 0, 0, 0.2);
+    color: #FFF;
+}
+
+.btn-pinterest {
+    background-color: #CB2027;
+    border-color: rgba(0, 0, 0, 0.2);
+    color: #FFF;
+}
+
+.btn-twitter {
+    background-color: #55ACEE;
+    border-color: rgba(0, 0, 0, 0.2);
+    color: #FFF;
+}
+
+.footer {
+    border-top: 1px solid #ccc;
+    margin-top: 30px;
+    margin-bottom: -30px;
+    height: 50px;
+    width: auto;
+    color: black;
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.footer a {
+    color: black
+}
+
